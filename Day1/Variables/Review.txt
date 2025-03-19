@@ -49,9 +49,8 @@ Use of `li` variable is not clear. Refactor the method to make it more readable.
 4.
 userRole==8 is not readable and there is hardcoding, 
 can have a const for Admin e.g.
- 
+
 const string AdminRole="Admin"
- 
 if (userRole == AdminRole)
 
 
@@ -59,4 +58,4 @@ if (userRole == AdminRole)
 No need to repeat `Car` prefix for properties since the class name is already `Car`.
 
 6.
- No need to check for null can be defined directly
+No need to check for null can be defined directly
